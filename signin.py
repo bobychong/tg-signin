@@ -11,7 +11,7 @@ GROUP1 = os.environ['GROUP1']
 GROUP2 = os.environ['GROUP2']
 
 # 随机等待0到9小时
-delay = random.randint(0, 9 * 3600)
+delay = 0
 print(f"随机等待 {delay//3600} 小时 {(delay%3600)//60} 分钟")
 time.sleep(delay)
 
